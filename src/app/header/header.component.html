@@ -1,1 +1,50 @@
-<p>header works!</p>
+<form>
+    <div class="header1">
+        <div class="row col-md-12">
+            <div class="row col-md-5"></div>
+            <div class="row col-md-4 magin"><b>Mang Tiếng Anh Đến Gần Mọi Người</b></div>
+            <div class="row col-md-3">
+                <button class="btn btn2 b" [routerLink]="['/signup']">Đăng Ký</button>
+                <button class="btn btn2 b" [routerLink]="['/login']">Đăng Nhập</button>
+              </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class=" row col-md-12 ">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <div class="btn1">
+                <button class="btn btn-default b color" routerLink="/dashboardCoffee">Trang Chủ</button>
+                <div class="dropdown">
+                    <button class="btn btn-default b color" >  Menu </button>
+                    <div class="dropdown-content">
+                      <a href="#">Cà Phê</a>
+                      <a href="#">Trà & Macchiato</a>
+                      <a href="#">Thức Uống Đá Xay</a>
+                      <a href="#">Thức Uống Trái Cây</a>
+                      <a href="#">Bánh & Snack</a>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="btn btn-default b color" routerLink="/DashboardStudy">Học Tập</button>
+                    <div class="dropdown-content">
+                      <a routerLink="/SignupClassschedule">Đăng Ký Lịch Học</a>
+                      <a routerLink="/Schedule">Lịch Học</a>
+                      <a routerLink="/Transcript">Bảng Điểm</a>
+                      <a routerLink="/Tests-Quizzes">Tests & Quizzes</a>
+                    </div>
+                </div>
+                <img src="/assets/images/logo.png" width="120" height="60">
+                <button class="btn btn-default b color" >Blog</button>
+                <button class="btn btn-default b color" >Đánh Giá</button>
+                <button class="btn btn-default b color" style="margin-right: 100px;" >Giới Thiệu</button>
+                <input class="border" type="text" placeholder="   Search..." name="search2" style="width: 270px; margin-right: 20px;">
+                <button class="border" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="dk"></div>
+</form>  
+

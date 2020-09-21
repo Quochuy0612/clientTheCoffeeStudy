@@ -1,0 +1,29 @@
+.dk{
+    background-color: #f32828;
+    width: 1535px;
+    height:2px;
+  }
+.footer{
+    background-color: #5F5F5F;
+    width: 1530px;
+    height:400px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    text-align: justify;
+    padding: 50px 100px 0px 200px;
+}
+.font{
+    font-family: Algerian;
+    font-size: 20px;
+    color: #f32828;
+}
+a {
+    font-size: 15px;
+}
+.line{
+    margin-top: 10px;
+    background-color: white;
+    height: 1px;
+}
+

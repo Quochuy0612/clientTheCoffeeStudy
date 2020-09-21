@@ -1,0 +1,104 @@
+.header1{
+    background-color:#5F5F5F;
+    width: 1535px;
+    height:40px;
+    color: white;
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 17px;
+}
+.header{
+    background-color: white;
+    width: 1535px;
+    height: 60px;
+}
+.btn1{
+  margin-left:200px;
+ }
+.magin{
+  margin-right: 75px;
+}
+
+.btn2{
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  padding: 0px;
+  background-color: #5F5F5F;
+  color: white;
+}
+.b{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .color{
+    color: black;
+  }
+.b{
+    border:Z solid #4CAF50;
+  }
+  
+.b:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.border{
+  border-radius: 20px;
+}
+.dk{
+  background-color: #f32828;
+  width: 1535px;
+  height:2px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
