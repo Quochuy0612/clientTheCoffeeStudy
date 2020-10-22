@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { TestComponentRenderer } from '@angular/core/testing';
 import { Routes, RouterModule } from '@angular/router';
+import { BlogComponent } from './body/blog/blog.component';
 import { DefaultCoffeeComponent } from './body/default-coffee/default-coffee.component';
 import { DefaultStudyComponent } from './body/default-study/default-study.component';
 import { LoginComponent } from './body/login/login.component';
@@ -57,6 +58,10 @@ const routes: Routes = [
   {
     path: 'Transcript',
     component: TranscriptComponent
+  },
+  {
+    path: 'Blog',
+    component: BlogComponent
   },
 ];
 

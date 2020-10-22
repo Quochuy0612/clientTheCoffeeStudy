@@ -17,6 +17,8 @@ import { TranscriptComponent } from './body/transcript/transcript.component';
 import { TestQuizzesComponent } from './body/test-quizzes/test-quizzes.component';
 import { SpecificTranscriptComponent } from './body/specific-transcript/specific-transcript.component';
 import { SignupClassScheduleComponent } from './body/signup-class-schedule/signup-class-schedule.component';
+import { BlogComponent } from './body/blog/blog.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { SignupClassScheduleComponent } from './body/signup-class-schedule/signu
     TestQuizzesComponent,
     SpecificTranscriptComponent,
     SignupClassScheduleComponent,
+    BlogComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,38 @@
 .dk{
     background-color: #f32828;
-    width: 1535px;
+    width: auto;
     height:2px;
+  }
+@media all and (max-width: 320px) {
+    .dk {
+        background-color: #f32828;
+    }
+  }
+@media only screen and (min-width: 320px) and (max-width: 860px){
+    .dk {
+        background-color: #f32828;
+   }
   }
 .footer{
     background-color: #5F5F5F;
-    width: 1530px;
-    height:400px;
+    max-width: auto;
+    height:auto;
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     text-align: justify;
     padding: 50px 100px 0px 200px;
 }
+@media all and (max-width: 320px) {
+    .footer {
+        background-color: #5F5F5F;
+    }
+  }
+@media only screen and (min-width: 320px) and (max-width: 860px){
+    .footer {
+        background-color: #5F5F5F;
+   }
+  }
 .font{
     font-family: Algerian;
     font-size: 20px;

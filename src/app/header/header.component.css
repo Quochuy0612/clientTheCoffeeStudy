@@ -1,20 +1,40 @@
 .header1{
     background-color:#5F5F5F;
-    width: 1535px;
+    max-width: auto;
     height:40px;
     color: white;
     padding: 5px;
     font-family: "Courier New", Courier, monospace;
     font-size: 17px;
 }
+@media all and (max-width: 320px) {
+  .header1 {
+     background: #e7e7e7;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 860px){
+  .header1 {
+    background: #e7e7e7;
+ }
+}
 .header{
     background-color: white;
-    width: 1535px;
+    max-width: auto;
     height: 60px;
+}
+@media all and (max-width: 320px) {
+  .header {
+     background: #e7e7e7;
+  }
 }
 .btn1{
   margin-left:200px;
  }
+ @media all and (max-width: 320px) {
+  .btn1 {
+     background: #5F5F5F;
+  }
+}
 .magin{
   margin-right: 75px;
 }
@@ -27,6 +47,11 @@
   padding: 0px;
   background-color: #5F5F5F;
   color: white;
+}
+@media all and (max-width: 320px) {
+  .btn2 {
+     background: #5F5F5F;
+  }
 }
 .b{
     border: none;
@@ -83,8 +108,12 @@
 }
 .dk{
   background-color: #f32828;
-  width: 1535px;
+  max-width: auto;
   height:2px;
+}
+.header2{
+  background-color:#4CAF50;
+
 }
  
 
