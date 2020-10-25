@@ -19,6 +19,7 @@ import { SpecificTranscriptComponent } from './body/specific-transcript/specific
 import { SignupClassScheduleComponent } from './body/signup-class-schedule/signup-class-schedule.component';
 import { BlogComponent } from './body/blog/blog.component';
 import { MenuComponent } from './menu/menu.component';
+import { CollectionsMenuComponent } from './body/collections-menu/collections-menu.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { MenuComponent } from './menu/menu.component';
     SignupClassScheduleComponent,
     BlogComponent,
     MenuComponent,
+    CollectionsMenuComponent,
   ],
   imports: [
     BrowserModule,

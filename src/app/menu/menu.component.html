@@ -3,44 +3,39 @@
         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <img src="/assets/images/logo.png" width="100" height="40">
+    <a routerLink="/coffee" style="margin-right: 50px;">
+        <img src="/assets/images/logo.png" width="200" height="100">
+    </a>
+    
 
+    <!-- [routerLink]="['/signup']" -->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="/coffee">Trang Chủ <span class="sr-only">(current)</span></a>
+                <button class="custom-btn btn-8" routerLink="/coffee"><span>Trang Chủ</span></button>
             </li>
             <li class="nav-item active dropdown">
-                <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
-                <div class="dropdown">
-                    <div class="dropdown-content">
-                        <a href="#">Cà Phê</a>
-                        <a href="#">Trà & Macchiato</a>
-                        <a href="#">Thức Uống Đá Xay</a>
-                        <a href="#">Thức Uống Trái Cây</a>
-                        <a href="#">Bánh & Snack</a>
-                      </div>  
-                </div>
+                <button class="custom-btn btn-8" routerLink="/Menu"><span>Menu</span></button>
             </li>
             <li class="nav-item active dropdown">
-                <a class="nav-link" href="/study">Học Tập <span class="sr-only">(current)</span></a>
+                <button class="custom-btn btn-8" routerLink="/study"><span>Học Tập</span></button>
                 <div class="dropdown">
                     <div class="dropdown-content">
-                        <a routerLink="/signupclassschedule">Đăng Ký Lịch Học</a>
-                        <a routerLink="/schedule">Lịch Học</a>
-                        <a routerLink="/Transcript">Bảng Điểm</a>
-                        <a routerLink="/TestQuizzes">Tests & Quizzes</a>
+                        <a class="btn radius" routerLink="/signupclassschedule">Đăng Ký Lịch Học</a>
+                        <a class="btn radius" routerLink="/schedule">Lịch Học</a>
+                        <a class="btn radius" routerLink="/Transcript">Bảng Điểm</a>
+                        <a class="btn radius" routerLink="/TestQuizzes">Tests & Quizzes</a>
                       </div>
                 </div>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Đánh Giá <span class="sr-only">(current)</span></a>
+                <button class="custom-btn btn-8" routerLink="/coffee"><span>Khuyến Mãi</span></button>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/Blog">Blog </a>
+                <button class="custom-btn btn-8" routerLink="/Blog"><span>Blog</span></button>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Giới Thiệu <span class="sr-only">(current)</span></a>
+                <button class="custom-btn btn-8" routerLink="/coffee"><span>Cửa Hàng</span></button>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
