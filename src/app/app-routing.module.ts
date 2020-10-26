@@ -6,7 +6,9 @@ import { CollectionsMenuComponent } from './body/collections-menu/collections-me
 import { DefaultCoffeeComponent } from './body/default-coffee/default-coffee.component';
 import { DefaultStudyComponent } from './body/default-study/default-study.component';
 import { LoginComponent } from './body/login/login.component';
+import { PayComponent } from './body/pay/pay.component';
 import { ProductsComponent } from './body/products/products.component';
+import { RatingComponent } from './body/rating/rating.component';
 import { ScheduleComponent } from './body/schedule/schedule.component';
 import { SignupClassScheduleComponent } from './body/signup-class-schedule/signup-class-schedule.component';
 import { SignupComponent } from './body/signup/signup.component';
@@ -67,6 +69,14 @@ const routes: Routes = [
   {
     path: 'Menu',
     component: CollectionsMenuComponent
+  },
+  {
+    path: 'Pay',
+    component: PayComponent
+  },
+  {
+    path: 'Rating',
+    component: RatingComponent
   },
 ];
 
